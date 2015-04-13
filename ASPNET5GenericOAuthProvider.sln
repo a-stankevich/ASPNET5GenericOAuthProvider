@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B3D8521F-AF34-43EF-AA93-ABB3246FBA9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{67A26092-7595-4FE2-AF84-B6CE0E403D67}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ASPNET5GenericOAuthProvider", "src\ASPNET5GenericOAuthProvider\ASPNET5GenericOAuthProvider.kproj", "{1E444FC9-8525-40E6-BEE7-FB591A9962FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E444FC9-8525-40E6-BEE7-FB591A9962FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E444FC9-8525-40E6-BEE7-FB591A9962FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E444FC9-8525-40E6-BEE7-FB591A9962FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E444FC9-8525-40E6-BEE7-FB591A9962FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E444FC9-8525-40E6-BEE7-FB591A9962FE} = {B3D8521F-AF34-43EF-AA93-ABB3246FBA9A}
+	EndGlobalSection
+EndGlobal
